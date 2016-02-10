@@ -30,7 +30,7 @@ p {
 /*link colors */
 a:link,
 a:visited, .tabtree .tabrow0 li a  {
-    color: #0070A8;
+    color: #63A7CE;
     text-decoration: none;
 }
 
@@ -165,7 +165,7 @@ a:focus {
 }
 
 #page-footer {
-	background: #003744;
+	background: #1d4255;
     margin: 10px auto 0;
     padding: 60px 0px 40px;
    text-align: left;
@@ -179,7 +179,7 @@ a:focus {
 }
 
 #page-footer a {
-    color: #469DCD;
+    color: #63A7CE;
 }
 
 .footer-share {
@@ -266,7 +266,7 @@ a:focus {
 }
 
 .breadcrumb a {
-	color: #70f083;
+	color: #62a6cb;
 	text-shadow: none;
 }
 
@@ -333,7 +333,7 @@ a:focus {
 }
 
 #page-header .socials a {
-	color: #469DCD;
+	color: #63A7CE;
 }
 
 #intro.generalbox {
@@ -371,7 +371,7 @@ div.redirectmessage {
 
 /*buttons */
 input[type="submit"], input[type="button"], #searchform_button, a.submit, #accessibility_controls #block_accessibility_launchtoolbar {
-		background: #469DCC !important;
+		background: #63A7CE !important;
        
      border: 0px;
 	 -webkit-border-radius: 0px;
