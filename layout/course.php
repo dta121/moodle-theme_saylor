@@ -186,12 +186,6 @@ echo $OUTPUT->doctype() ?>
                     echo $OUTPUT->main_content();
                     echo $OUTPUT->course_content_footer();
                     ?>
-
-                    <!-- share buttons -->
-                    <div id="share-buttons">
-                        <br><p>Share this course!</p>
-                        <?php echo course_share_buttons(); ?>
-                    </div>
                 </section>
                 <?php
                 $classextra = '';
@@ -200,8 +194,12 @@ echo $OUTPUT->doctype() ?>
                 }
                 echo $OUTPUT->blocks('side-pre', 'span3'.$classextra);
                 ?>
+                                    <!-- share buttons -->
+                <div id="share-buttons">
+                    <br><p>Share this course!</p>
+                    <?php echo course_share_buttons(); ?>
+                </div>
         </div>
-
     <footer id="page-footer" class="clearfix">
         <div id="course-footer"><?php echo $OUTPUT->course_footer(); ?></div>
         
