@@ -187,11 +187,15 @@ echo $OUTPUT->doctype() ?>
                     echo $OUTPUT->course_content_footer();
                     ?>
 
-                    <!-- share buttons -->
-                    <div id="share-buttons">
-                        <br><p>Share this course!</p>
-                        <?php echo course_share_buttons(); ?>
-                    </div>
+                    <!-- Share Buttons -->
+                    <?php
+                    if (!stripos($PAGE->title, 'syllabus') === false) {
+                        echo '<div id="share-buttons"><br><p>Share this course!</p>';
+                        echo course_share_buttons();
+                        echo '</div>';
+                    }
+                    ?>
+                    <!-- End Share Buttons -->
                 </section>
                 <?php
                 $classextra = '';
