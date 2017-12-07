@@ -51,10 +51,9 @@ $templatecontext = [
     'hasregionmainsettingsmenu' => !empty($regionmainsettingsmenu),
     'currentyear' => date('Y'),
     'logo' => $OUTPUT->image_url('logos/logo_light', 'theme'),
-    'footer_logo' => $OUTPUT->image_url('logos/logo2', 'theme'),
+    'footer_logo' => $OUTPUT->image_url('logos/logo_dark_small', 'theme'),
     'ccby' => $OUTPUT->image_url('logos/cc/ccby', 'theme')
 ];
 
 $templatecontext['flatnavigation'] = $PAGE->flatnav;
 echo $OUTPUT->render_from_template('theme_saylor/columns2', $templatecontext);
-
