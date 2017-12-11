@@ -51,7 +51,7 @@ $templatecontext = [
     'hasregionmainsettingsmenu' => !empty($regionmainsettingsmenu),
     'currentyear' => date('Y'),
     'logo' => $OUTPUT->image_url('logos/logo_light', 'theme'),
-    'footer_logo' => $OUTPUT->image_url('logos/logo_dark_small', 'theme'),
+    'footer_logo' => $OUTPUT->image_url('logos/logo_white_small', 'theme'),
     'ccby' => $OUTPUT->image_url('logos/cc/ccby', 'theme')
 ];
 
