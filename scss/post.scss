@@ -1,2 +1,44 @@
 // https://docs.moodle.org/dev/Creating_a_theme_based_on_boost#Why_do_we_use_pre_and_post_SCSS.3F
 // Post SCSS for the theme.
+
+
+// font family selection
+// sass font tutorial http://www.developerdrive.com/2014/05/how-to-easily-use-google-fonts-with-sass/
+//HTML code version: 
+// <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:300,400,500,700" rel="stylesheet">
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Comfortaa', cursive;
+
+// unused font variables 
+//$font-stack: Open Sans, sans-serif;
+// Font Variables
+$header-font: 'Raleway', sans-serif;   
+$body-font: 'Open Sans', sans-serif;
+$accent-font: 'Comfortaa', cursive; 
+
+// scssstyle for buttons if need be: 
+	.button {
+	  font-family: $accent-font;
+	  background-color: $button-bg-orange;
+	}
+
+// testing out font importing
+// Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,700|Open+Sans:400,700|Raleway:300,400,500,700); 
+
+// Styles
+body {
+  font-family: $body-font;
+  font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font;
+  font-weight: normal;
+}
+
+
+
+
+
