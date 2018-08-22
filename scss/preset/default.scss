@@ -85,7 +85,16 @@ body {
 }
 
 .navbar {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .08);
+    box-shadow: 0 3px 0 $primary;
+}
+
+// Change height, margin and padding to navbar logo
+.navbar-brand .icon {
+  height: 52px;
+  width: 10vw;
+  min-width: 5em;
+  margin-top: -4px;
+  padding-bottom: 2px;
 }
 
 .filemanager-container,
@@ -96,4 +105,9 @@ body {
 // Rounded user pictures
 .userpicture {
     border-radius: 50%;
+}
+
+// Increase font size for user log in/sign up top-right header. */
+.usermenu {
+    font-size: 1.2em;
 }
