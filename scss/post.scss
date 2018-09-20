@@ -1,6 +1,17 @@
  // https://docs.moodle.org/dev/Creating_a_theme_based_on_boost#Why_do_we_use_pre_and_post_SCSS.3F
 // Post SCSS for the theme.
 
+li.breadcrumb-item:last-of-type>a {
+	color: $breadcrumb-last-color;
+}
+
+li.breadcrumb-item:not(:last-of-type)>a {
+	text-decoration: none;
+	pointer-events: none;
+	cursor: default;
+	color: black;
+}
+
 .content .sectionname {
 	margin-top: .5rem;
 }
